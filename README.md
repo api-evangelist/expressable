@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Expressable is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Expressable is an online speech therapy platform based in Austin, Texas that connects children and adults with licensed speech-language pathologists for one-on-one virtual teletherapy sessions across the United States. It treats speech delays, stuttering, apraxia, aphasia, dysarthria, autism-related communication challenges, voice and swallowing disorders, accent modification and gender-affirming voice training, and works with both insurance plans and private pay.
+
+Expressable publishes an `llms.txt` for AI agents but no public developer program, API reference, or machine-readable API contract. See `x-coverage` in `apis.yml` for the probe evidence.
+
+- https://www.expressable.com/

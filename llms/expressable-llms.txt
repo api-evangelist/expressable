@@ -1,0 +1,74 @@
+# Expressable
+
+> Expressable is an online speech therapy platform offering convenient, personalized speech-language therapy for children and adults. Licensed speech-language pathologists (SLPs) provide one-on-one teletherapy sessions from the comfort of home, treating a wide range of communication disorders including speech delays, stuttering, apraxia, autism-related communication challenges, aphasia, and more.
+
+Expressable serves families and adults across the United States through virtual speech therapy sessions. The platform matches clients with licensed, experienced therapists based on their specific needs, location, and insurance coverage.
+
+## Core Pages
+
+- [Home](https://www.expressable.com/): Main landing page for Expressable online speech therapy
+- [About](https://www.expressable.com/about): About Expressable and our mission
+- [For Kids and Families](https://www.expressable.com/for-kids-and-families): Pediatric speech therapy services overview
+- [For Adults](https://www.expressable.com/for-adults): Adult speech therapy services overview
+- [Pricing](https://www.expressable.com/pricing): Pricing and insurance information
+- [Reviews](https://www.expressable.com/reviews): Client reviews and testimonials
+- [Careers](https://www.expressable.com/careers): Career opportunities at Expressable
+- [States We Serve](https://www.expressable.com/states-we-serve): List of US states where Expressable provides services
+- [Therapists](https://www.expressable.com/therapists): Browse our team of licensed speech-language pathologists
+
+## Services
+
+- [Speech Delay](https://www.expressable.com/services/speech-delay): Evaluation and treatment for speech delays in children
+- [Stuttering](https://www.expressable.com/services/stuttering): Speech therapy for stuttering and fluency disorders
+- [Apraxia of Speech](https://www.expressable.com/services/apraxia-of-speech): Treatment for childhood and adult apraxia of speech
+- [Autism Spectrum Disorder](https://www.expressable.com/services/autism-spectrum-disorder): Communication therapy for individuals with autism
+- [Aphasia](https://www.expressable.com/services/aphasia): Speech-language therapy for aphasia recovery
+- [Dysarthria](https://www.expressable.com/services/dysarthria): Treatment for dysarthria and motor speech disorders
+- [Early Childhood Development](https://www.expressable.com/services/early-childhood-development): Early intervention speech therapy for young children
+- [Language Disorders](https://www.expressable.com/services/language-disorders): Therapy for expressive and receptive language disorders
+- [Speech Sound Disorder](https://www.expressable.com/services/speech-sound-disorder): Treatment for articulation and phonological disorders
+- [Lisps](https://www.expressable.com/services/lisps): Speech therapy for frontal and lateral lisps
+- [Feeding and Swallowing Disorders](https://www.expressable.com/services/feeding-and-swallowing-disorders): Therapy for pediatric feeding challenges
+- [Social Communication Disorder](https://www.expressable.com/services/social-communication-disorder): Help with pragmatic language and social skills
+- [Voice Disorders](https://www.expressable.com/services/voice-disorders): Treatment for voice quality and vocal health issues
+- [Cognitive Communication Disorders](https://www.expressable.com/services/cognitive-communication-disorders): Therapy for thinking-related communication challenges
+- [Augmentative and Alternative Communication (AAC)](https://www.expressable.com/services/augmentative-and-alternative-communication-aac): AAC device and strategy training
+- [Accent Modification](https://www.expressable.com/services/accent-modification): Accent training and modification services
+- [Gender-Affirming Voice Training](https://www.expressable.com/services/gender-affirming-voice-training): Voice feminization and masculinization therapy
+- [Literacy and Written Language Disorders](https://www.expressable.com/services/literacy-and-written-language-disorders): Reading, writing, and spelling support
+- [Reading Readiness](https://www.expressable.com/services/reading-readiness): Pre-literacy and reading readiness skills development
+- [Professional Communication and Public Speaking](https://www.expressable.com/services/professional-communication-and-public-speaking-skills): Professional communication coaching
+
+## Specialized Programs
+
+- [Early Communication Program](https://www.expressable.com/early-communication-program): Structured program for early communicators
+- [Pediatric Articulation Program](https://www.expressable.com/pediatric-articulation-program): Targeted articulation therapy for children
+- [Pediatric Language Disorders Program](https://www.expressable.com/pediatric-language-disorders-program): Comprehensive language therapy for children
+- [Pediatric Stuttering Program](https://www.expressable.com/pediatric-stuttering-program): Fluency program for children who stutter
+- [Pediatric Autism Program](https://www.expressable.com/pediatric-autism-program): Communication program for children with autism
+- [Pediatric Social Communication Program](https://www.expressable.com/pediatric-social-communication-program): Social skills and pragmatic language program
+- [Pediatric Feeding Disorder Program](https://www.expressable.com/pediatric-feeding-disorder-program): Feeding therapy program for children
+- [Adult Stuttering Program](https://www.expressable.com/adult-stuttering-program): Fluency program for adults who stutter
+- [Adult Apraxia Program](https://www.expressable.com/adult-apraxia-program): Motor speech therapy for adults with apraxia
+- [Adult Aphasia Program](https://www.expressable.com/adult-aphasia-program): Language recovery program for adults with aphasia
+- [Adult Dysarthria Program](https://www.expressable.com/adult-dysarthria-program): Speech clarity program for adults with dysarthria
+- [Adult Dysphagia Program](https://www.expressable.com/adult-dysphagia-program): Swallowing therapy for adults
+- [Adult Autism Program](https://www.expressable.com/adult-autism-program): Communication program for adults with autism
+- [Adult Articulation Program](https://www.expressable.com/adult-articulation-program): Articulation improvement for adults
+- [Adult Voice Program](https://www.expressable.com/adult-voice-program): Voice therapy for adults
+- [Adult Gender-Affirming Voice Program](https://www.expressable.com/adult-gender-affirming-voice-program): Gender-affirming voice training program
+- [Adult Cognitive Communication Program](https://www.expressable.com/adult-cognitive-communication-program): Cognitive-communication therapy for adults
+
+## Learning Center
+
+- [Learning Center](https://www.expressable.com/learning-center): Educational articles and resources about speech-language therapy
+- [About Speech Therapy for Children](https://www.expressable.com/about-speech-therapy-pediatrics): Overview of pediatric speech therapy
+- [About Speech Therapy for Adults](https://www.expressable.com/about-speech-therapy-adults): Overview of adult speech therapy
+- [Speech Therapy at Home](https://www.expressable.com/speech-therapy-at-home): Guide to online speech therapy from home
+
+## Optional
+
+- [Privacy Policy](https://www.expressable.com/privacy-policy): Privacy policy
+- [Terms and Conditions](https://www.expressable.com/terms-and-conditions): Terms and conditions
+- [Accessibility Statement](https://www.expressable.com/accessibility-statement): Accessibility commitment
+- [Referrals](https://www.expressable.com/referrals): Referral program information

@@ -1,0 +1,40 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.expressable.com/pricing
+note: >-
+  Expressable publishes consumer clinical-service pricing, not API plans. There is no
+  developer program, no API key issuance and no metered API tier, so plan_count is 0 —
+  the published prices below are recorded under service_pricing because they price a
+  speech-therapy session, not API consumption. Recording them as API plans would credit
+  Expressable with a commercial API surface it does not sell.
+plan_count: 0
+plans: []
+service_pricing:
+  currency: USD
+  model: per-session self-pay, plus in-network and out-of-network insurance billing
+  items:
+  - name: Initial evaluation
+    price: '175'
+    currency: USD
+    unit: per evaluation
+    note: Private-pay rate published on the pricing page as "$175".
+  - name: Ongoing session
+    price: '88'
+    currency: USD
+    unit: per session
+    note: Private-pay rate published on the pricing page as "$88".
+  payment_methods:
+  - insurance (in-network and out-of-network)
+  - HSA
+  - FSA
+  - private pay
+  insurance:
+    accepted_examples:
+    - Blue Cross Blue Shield
+    - Aetna
+    - Medicaid
+    - Wellcare
+    superbill: >-
+      For plans Expressable does not accept, the pricing page states clients are provided
+      a superbill they can submit to their insurer for possible reimbursement.
+  hidden_fees_claim: 'Pricing page states: "No surprises or hidden fees."'

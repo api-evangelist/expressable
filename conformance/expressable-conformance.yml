@@ -1,0 +1,46 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.expressable.com/notice-of-privacy-practices
+note: >-
+  Expressable has no machine-readable API contract, so no API-level standards (OAuth2,
+  OIDC, RFC 9457, JSON:API, pagination, idempotency) can be asserted — they are recorded
+  as not-applicable rather than false. What Expressable does publish is a regulatory
+  posture: a HIPAA Notice of Privacy Practices naming "Expressable, Inc. and Expressable
+  Speech-Language Pathology, P.C." as the covered entities, and a business-associate
+  safeguarding commitment. No SOC 2, ISO 27001, HITRUST or trust center was found — the
+  probe of trust./security./compliance surfaces returned nothing.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: >-
+    Published HIPAA Notice of Privacy Practices at
+    https://www.expressable.com/notice-of-privacy-practices names Expressable, Inc. and
+    Expressable Speech-Language Pathology, P.C. as covered entities and states business
+    associates are required by contract to safeguard Protected Health Information.
+- id: soc2
+  conforms: false
+  evidence: No SOC 2 report, trust center or attestation published; trust./security./compliance probes found nothing.
+- id: iso-27001
+  conforms: false
+  evidence: No ISO 27001 certification published.
+- id: hitrust
+  conforms: false
+  evidence: No HITRUST certification published.
+- id: llmstxt
+  conforms: true
+  evidence: https://www.expressable.com/llms.txt returns HTTP 200 with a valid llms.txt document (H1, blockquote summary, sectioned link lists).
+- id: oauth2
+  conforms: null
+  evidence: Not applicable — no public API or authorization server.
+- id: oidc
+  conforms: null
+  evidence: Not applicable — /.well-known/openid-configuration returns 404 on www.expressable.com.
+- id: rfc9457-problem-details
+  conforms: null
+  evidence: Not applicable — no public API contract to inspect.
+- id: fhir
+  conforms: null
+  evidence: >-
+    Not applicable as published. Expressable is a healthcare services provider, not a
+    health-data platform, and publishes no FHIR endpoint, capability statement or
+    interoperability documentation.

@@ -1,7 +1,16 @@
 aid: expressable
 name: Expressable
-description: 'Expressable is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Expressable is an online speech therapy platform based in Austin, Texas
+  that connects children and adults with licensed speech-language pathologists for
+  one-on-one virtual teletherapy sessions across the United States. Founded by speech-language
+  pathologist Leanne Sherred, the company treats speech delays, stuttering, apraxia,
+  aphasia, dysarthria, autism-related communication challenges, voice and swallowing
+  disorders, accent modification and gender-affirming voice training through a client
+  portal at app.expressable.com, and works with both insurance plans and private pay.
+  Expressable is a direct-to-consumer and payer-facing healthcare services company:
+  it publishes an llms.txt for AI agents but no public developer program, API reference,
+  or machine-readable API contract.'
+image: https://images.ctfassets.net/w45yni3hcp6l/66LZvHEALOCDaE9QComTUt/60f5f517a8b398af7262138c30e9ff93/home-preview-image.png
 url: https://raw.githubusercontent.com/api-evangelist/expressable/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,14 @@ created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
+- Health
+- Healthcare
+- Telehealth
+- Speech Therapy
+- Teletherapy
+- Digital Health
+- Consumer Health
+- Behavioral Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,57 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/expressable-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.expressable.com/
+- type: About
+  url: https://www.expressable.com/about
+- type: Pricing
+  url: https://www.expressable.com/pricing
+- type: Login
+  url: https://app.expressable.com/
+- type: TermsOfService
+  url: https://www.expressable.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.expressable.com/privacy-policy
+- type: Blog
+  url: https://www.expressable.com/learning-center
+- type: LLMsTxt
+  url: llms/expressable-llms.txt
+- type: NoticeOfPrivacyPractices
+  url: https://www.expressable.com/notice-of-privacy-practices
+- type: Accessibility
+  url: https://www.expressable.com/accessibility-statement
+- type: Plans
+  url: plans/expressable-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/expressable-rate-limits.yml
+- type: Conformance
+  url: conformance/expressable-conformance.yml
+- type: Compliance
+  url: https://www.expressable.com/notice-of-privacy-practices
+x-enrichment:
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Expressable is a direct-to-consumer telehealth speech-therapy practice whose only
+    software surface is a patient client portal at app.expressable.com — a Cloudflare
+    Pages SPA whose bundle calls Stripe, Mixpanel and LaunchDarkly but no first-party
+    API host; there is no api., docs. or developer. subdomain in DNS and every spec path
+    on www.expressable.com 404s.
+  evidence:
+  - url: https://www.expressable.com/openapi.json
+    status: 404
+  - url: https://www.expressable.com/graphql
+    status: 404
+  - url: https://www.expressable.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.expressable.com/llms.txt
+    status: 200
+  checked: '2026-08-12'

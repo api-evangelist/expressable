@@ -1,0 +1,15 @@
+generated: '2026-08-12'
+method: probed
+source: https://www.expressable.com/llms.txt
+note: >-
+  Honest zero. Expressable publishes no public API, so there is no rate-limit contract
+  to record. Contract discovery probed /openapi.json, /openapi.yaml, /swagger.json,
+  /v1/openapi.json, /api-docs, /docs, /redoc, /api and /graphql on www.expressable.com
+  (all 404) and on the client-portal SPAs app.expressable.com and app.expressable.io
+  (all HTTP 200 HTML shells from a catch-all, not documents). DNS has no api., docs.,
+  developer(s). or status. subdomain. No rate-limit headers were observed because there
+  is no API endpoint to observe them on.
+limit_count: 0
+limits: []
+headers: []
+exhaustion_status: null

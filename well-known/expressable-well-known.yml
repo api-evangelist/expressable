@@ -1,0 +1,66 @@
+generated: '2026-08-12'
+method: probed
+source: live GET of /.well-known/* on every Expressable host found in apis.yml
+note: >-
+  Every /.well-known/ path probed on www.expressable.com returned 404. The client-portal
+  hosts app.expressable.com and app.expressable.io are single-page applications served
+  from Cloudflare Pages whose catch-all answers HTTP 200 with the same HTML shell for
+  EVERY path — including /.well-known/security.txt, /.well-known/openid-configuration
+  and /.well-known/agent-card.json. Those 200s are NOT documents and are recorded as
+  misses. No WellKnown or SecurityTxt pointer is emitted, because Expressable serves no
+  well-known document.
+hosts:
+- host: https://www.expressable.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://app.expressable.com
+  spa_catch_all: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    document: false
+    note: SPA HTML shell, not a security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    document: false
+    note: SPA HTML shell, not OIDC discovery JSON
+  - path: /.well-known/agent-card.json
+    status: 200
+    document: false
+    note: SPA HTML shell, not an A2A agent card
+  - path: /.well-known/agent.json
+    status: 200
+    document: false
+    note: SPA HTML shell, not an A2A agent card
+- host: https://app.expressable.io
+  spa_catch_all: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    document: false
+    note: SPA HTML shell, not a security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    document: false
+    note: SPA HTML shell, not OIDC discovery JSON
+  - path: /.well-known/agent-card.json
+    status: 200
+    document: false
+    note: SPA HTML shell, not an A2A agent card
+summary:
+  documents_found: 0
+  well_known_pointer_emitted: false
+  security_txt_pointer_emitted: false
