@@ -10,6 +10,17 @@ description: 'Expressable is an online speech therapy platform based in Austin, 
   Expressable is a direct-to-consumer and payer-facing healthcare services company:
   it publishes an llms.txt for AI agents but no public developer program, API reference,
   or machine-readable API contract.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://images.ctfassets.net/w45yni3hcp6l/66LZvHEALOCDaE9QComTUt/60f5f517a8b398af7262138c30e9ff93/home-preview-image.png
 url: https://raw.githubusercontent.com/api-evangelist/expressable/refs/heads/main/apis.yml
 x-type: company
